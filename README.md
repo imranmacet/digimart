@@ -1,66 +1,129 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🧩 DigiMart - Digital Marketplace
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## 📌 Product Name  
+**DigiMart**
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 📖 About the Project  
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+**DigiMart** is a digital marketplace platform designed to connect **Users, Authors, Reviewers, and Admins** in a seamless ecosystem.  
+It enables users to **purchase digital products** such as source code, videos, and audio files, while giving authors the ability to **publish and monetize their creations**.  
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The platform includes **KYC verification, ticketing support, commission handling, multi-language support, and role-based permissions** to ensure security, transparency, and scalability.  
 
-## Learning Laravel
+Our goal with DigiMart is to **empower creators** and **simplify digital product distribution** while ensuring buyers have a secure and professional experience.  
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## 👥 User Roles  
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+There will be **4 types of users** who will use the platform:  
 
-## Laravel Sponsors
+- **User** → Can purchase products  
+- **Author** → Can publish items on the platform  
+- **Reviewer (Admin)** → Reviews author items and approves/rejects them  
+- **Admin** → Manages the entire platform  
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 🚀 Features  
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### 🔹 User Features  
+1. Create an account on the platform  
+2. Request to become an author  
+3. Complete KYC verification  
+4. Dedicated dashboard  
+5. Purchase history page (download purchased items)  
+6. Transaction page (view all transactions)  
+7. Create support tickets  
+8. Update profile information  
 
-## Contributing
+### 🔹 Author Features  
+⚠️ Authors are also users but with additional privileges  
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+1. Publish products on the platform  
+2. Request payment withdrawals  
 
-## Code of Conduct
+### 🔹 Reviewer Features  
+1. Own reviewer dashboard  
+2. Approve, soft reject, or hard reject an item  
+3. View resubmitted item requests  
+4. View item update requests  
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### 🔹 Admin Features  
+1. **Members Handling**  
+   - View/update user list  
+   - Create/manage reviewer profiles  
+   - Create new admin accounts  
+2. **KYC Handling**  
+3. Manage product items  
+4. View and handle sales reports  
+5. Handle withdrawals  
+6. Reply to tickets  
+7. And more…  
 
-## Security Vulnerabilities
+### 🔹 Product Items Features  
+1. Multi-category system in backend  
+2. Support for multiple product types:  
+   - Source code (file, zip, rar, etc.)  
+   - Video files  
+   - Audio files  
+3. Authors can make items free  
+4. Change log feature  
+5. Authors can give discounts on items  
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 🔹 Ticket Features  
+1. Ticket categories handled from backend  
+2. Users can create tickets  
+3. Authors can create tickets  
 
-## License
+### 🔹 KYC Validation  
+1. Simple validation system in backend for author KYC  
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 🔹 Commission System  
+1. Admin can set a fixed commission (%) for all author sales  
+
+### 🔹 Withdrawals  
+1. Authors can submit withdrawal requests from their wallet  
+
+### 🔹 Localization  
+1. Site will support multiple languages  
+
+### 🔹 Roles & Permissions  
+1. Admin can create new roles  
+2. Admin can assign roles to users  
+
+### 🔹 Site Settings  
+1. General settings  
+2. SMTP settings  
+3. Payment gateway settings  
+4. Language settings  
+
+---
+
+## 👨‍💻 About Me  
+
+**Developer:** Md Imran Ahmad  
+- Founder of **BadaBajar IT Solution**  
+- Software Engineer at BadaBajar IT Solution  
+- 🌐 Website: [badabajaritsolution.com](https://badabajaritsolution.com/)  
+- 🔗 LinkedIn: [Md Imran Ahmad](https://in.linkedin.com/in/md-imran-ahmad)  
+
+---
+
+## 🏢 About the Founder & Company  
+
+**BadaBajar IT Solution – Your Early Bird IT Partner**  
+
+BadaBajar IT Solution is an Indian technology company that develops web, mobile, and computer software for its IT partners.  
+We also collaborate with **Envato**, the world’s largest software marketplace, to sell premium software solutions.  
+
+🚀 Today, BadaBajar IT Solution is one of the **fastest-growing software providers on CodeCanyon**.  
+
+Founded in **2019 by Md Imran Ahmad**, our mission has always been clear:  
+> “To provide entrepreneurs and startups with affordable, high-quality software that helps them launch faster.”  
+
+Our goal is to empower entrepreneurs by giving them cost-effective tools and solutions that make technology more accessible.  
+
+---
